@@ -1,0 +1,13 @@
+metric,samples,sample_size,iters,field,threshold,is_not_overlap,distance
+exact_match,200,1000,5,distances,2,True,1.954499999999996
+f1,200,1000,5,distances,2,True,1.5497307134108098
+exact_match,200,1000,5,distances,3,True,3.3360000000000127
+f1,200,1000,5,distances,3,True,2.3817067779801278
+exact_match,200,1000,5,distances,4,True,4.155999999999992
+f1,200,1000,5,distances,4,True,3.271696056358053
+exact_match,200,1000,5,similar_words,3,True,0.8335000000000008
+f1,200,1000,5,similar_words,3,True,0.36808708851265237
+exact_match,200,1000,5,similar_words,4,True,0.1915000000000049
+f1,200,1000,5,similar_words,4,True,0.10871203410809471
+exact_match,200,1000,5,similar_words,5,True,0.2950000000000017
+f1,200,1000,5,similar_words,5,True,0.24164632624137994
