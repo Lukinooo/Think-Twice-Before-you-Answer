@@ -23,3 +23,7 @@ exact_match,200,1000,5,cosine_similarity,0.25,False,0
 f1,200,1000,5,cosine_similarity,0.25,False,0
 exact_match,200,1000,5,cosine_similarity,0.45,False,0
 f1,200,1000,5,cosine_similarity,0.45,False,0
+exact_match,200,1000,5,distances,5,True,4.358000000000004
+f1,200,1000,5,distances,5,True,3.768811714146352
+exact_match,200,1000,5,similar_words,2,True,2.8160000000000025
+f1,200,1000,5,similar_words,2,True,1.6793645000818458
