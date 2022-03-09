@@ -1511,3 +1511,11 @@ average_lower_than_0.5_for_field_cosine_similarity,500,1000,1,cosine_similarity,
 average_higher_than_0.5_for_field_cosine_similarity,500,1000,1,cosine_similarity,0.5,higher,79.0,81.5,80.2294,87.1370195628293,88.86362797433915,87.94004808267455,9262,1308
 average_lower_than_0.6_for_field_cosine_similarity_not_enough_samples,500,1000,1,cosine_similarity,0.6,lower,-1,-1,-1,-1,-1,-1,10164,406
 average_higher_than_0.6_for_field_cosine_similarity_not_enough_samples,500,1000,1,cosine_similarity,0.6,higher,-1,-1,-1,-1,-1,-1,10164,406
+average_lower_than_1_for_field_answer_lenght,200,1000,1,answer_lenght,1,lower,84.4,87.405,86.06300000000006,87.8603587523587,90.48264131932878,89.23640448717944,2295,8275
+average_higher_than_1_for_field_answer_lenght,200,1000,1,answer_lenght,1,higher,75.6975,80.8,78.52899999999998,85.32217154454985,88.95393359491844,87.0740402931071,2295,8275
+average_lower_than_2_for_field_answer_lenght,200,1000,1,answer_lenght,2,lower,83.2,87.0,85.029,87.41632733548603,90.57612309382219,89.10895404051473,5386,5184
+average_higher_than_2_for_field_answer_lenght,200,1000,1,answer_lenght,2,higher,72.4975,77.5,75.05449999999998,84.40476297432974,87.73966285475528,85.92728041586224,5386,5184
+average_lower_than_3_for_field_answer_lenght,200,1000,1,answer_lenght,3,lower,82.2975,86.51,84.49449999999996,87.67383566112726,90.8783010311443,89.23668540938776,7446,3124
+average_higher_than_3_for_field_answer_lenght,200,1000,1,answer_lenght,3,higher,67.7975,72.5,70.21350000000001,82.1695751424699,85.42395837002213,83.8678717604491,7446,3124
+average_lower_than_4_for_field_answer_lenght,200,1000,1,answer_lenght,4,lower,80.8,85.3025,83.39850000000003,87.13021884410095,90.36121715175851,88.77626394146442,8529,2041
+average_higher_than_4_for_field_answer_lenght,200,1000,1,answer_lenght,4,higher,64.4975,68.4,66.50900000000001,80.98703729471782,83.54087413725071,82.36206349782861,8529,2041
