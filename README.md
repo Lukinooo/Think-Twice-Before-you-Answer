@@ -6,7 +6,7 @@
 
 This GitHub repository stores source code and datasets for the master's thesis.
 
-This work is implemented in Python, at first, please, install the [requirements.txt](requirements.txt) file with the standard command:
+This work is implemented in Python, for best compatibility, use Python version 3.7.9. At first, please, install the [requirements.txt](requirements.txt) file with the standard command:
 
 ```bash
 pip install -r requirements.txt
@@ -30,13 +30,13 @@ pip install -r requirements.txt
 
 We run all notebooks for BERT fine-tuning on Kaggle, because the fine-tuning demands a powerful GPU. However, the paths to the datasets are altered to work with this structure. If you want to run these notebooks On Colab or Kaggle, please, change the paths in corresponding cells.
 
-#### The datasets, we use in our experiments and evaluations are available in directory [datasets](./datasets/) in .json format:
+#### The datasets, we use in our experiments and evaluations are available in directory [datasets](./datasets/):
 
 [valid_squad_with_predictions.json](./datasets/valid_squad_with_predictions.json) - validation SQuAD with predicted answers from the baseline BERT model
 
-[squad_train.json](./datasets/squad_train.json) - train SQuAD in .json format, for fitting od TF-IDF
+[squad_train.json](./datasets/squad_train.json) - train SQuAD
 
-[squad_train_with_heuristics_flags.json](./datasets/squad_train_with_heuristics_flags.json)
+[squad_train_with_heuristics_flags.json](./datasets/squad_train_with_heuristics_flags.json) - train SQuAD with computed heuristics and flags for identification of
 
 [enhanced_valid_squad_with_predictions.json](./datasets/enhanced_valid_squad_with_predictions.json) - validation SQuAD with predicted answers from the baseline BERT model and computed heuristics
 
@@ -48,4 +48,6 @@ We run all notebooks for BERT fine-tuning on Kaggle, because the fine-tuning dem
 
 [triviaqa_dev_formatted.json](./datasets/triviaqa_dev_formatted.json) - validation TriviaQA dataset with postprocessing to SQuAD-like format
 
-[adversarialqa_validation.json](./datasets/adversarialqa_validation.json) - validation AdversarialQA dataset in .json format
+[adversarialqa_validation.json](./datasets/adversarialqa_validation.json) - validation AdversarialQA dataset
+
+#### Directory [models](./models/) is not present in this GitHub. To run Notebooks that refer to the saved BERT model, use some alternation from the HuggingFace Library.
