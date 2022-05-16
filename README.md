@@ -51,3 +51,5 @@ We run all notebooks for BERT fine-tuning on Kaggle, because the fine-tuning dem
 [adversarialqa_validation.json](./datasets/adversarialqa_validation.json) - validation AdversarialQA dataset
 
 #### Directory [models](./models/) is not present in this GitHub. To run Notebooks that refer to the saved BERT model, use some alternation from the HuggingFace Library.
+
+For the successful run of [evaluation_of_models_on_multiple_datasets.ipynb](evaluation_of_models_on_multiple_datasets.ipynb) Notebook, uncomment the value for saved_model parameter in third code cell or use your own model.
