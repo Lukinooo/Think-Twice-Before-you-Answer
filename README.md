@@ -6,7 +6,7 @@
 
 This GitHub repository stores source code and datasets for the master's thesis.
 
-This work is implemented in Python, at first, please, install the requrements.txt [requrements.txt](requrements.txt) file with the standard command:
+This work is implemented in Python, at first, please, install the [requirements.txt](requirements.txt) file with the standard command:
 
 ```bash
 pip install -r requirements.txt
